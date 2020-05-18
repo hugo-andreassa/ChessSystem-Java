@@ -1,30 +1,28 @@
 package boardgame;
 
 public class Position {
+
+	private int row;
+	private int column;
 	
-	private Integer row;
-	private Integer column;
-	
-	// Constructors 
-	public Position(Integer row, Integer column) {
+	public Position(int row, int column) {
 		this.row = row;
 		this.column = column;
 	}
 
-	// Getter e Setters
-	public Integer getRow() {
+	public int getRow() {
 		return row;
 	}
 
-	public void setRow(Integer row) {
+	public void setRow(int row) {
 		this.row = row;
 	}
 
-	public Integer getColumn() {
+	public int getColumn() {
 		return column;
 	}
 
-	public void setColumn(Integer column) {
+	public void setColumn(int column) {
 		this.column = column;
 	}
 	
